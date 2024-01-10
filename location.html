@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/logo.webp" type="image/icon">
+    <title>llfitness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="navigation fixed top-0 z-50 w-full">
+            <div class="flex justify-between items-center py-3 px-8 bg-black text-gray-50">
+                <div class="">
+                    <a href="index.html" class=""><img src="./images/dark-logo.jpg" class="w-24"></a>
+                </div>
+                <div class="nav-menu">
+                    <div class="nav-item flex flex-col gap-4 md:flex-row md:gap-5 tracking-wide">
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="service.html">SERVICE</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="team.html">TEAM</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="#">ARTICLES</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="#">PRICE</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="contact.html">CONTACT</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="location.html">LOCATION</a> </div>
+                    </div>
+                </div>
+                <button class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <!-- icon -->
+            <div class="">
+                <div class="flex justify-between items-center py-4 px-8 bg-gray-700 text-gray-50">
+                    <div class="hover:text-gray-400 duration-300">
+                        <i class="bi bi-house"></i>
+                        <a href="index.html" class="text-sm">HOME</a>
+                    </div>
+                    <div class="flex gap-3">
+                        <a href="#">
+                            <i class="bi bi-facebook hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-twitter hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-linkedin hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-youtube hover:text-gray-400 duration-300"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main section -->
+    <section class="main z-50 mt-[220px]">
+        <div class="flex justify-center items-center">
+            <div class="max-w-7xl px-3">
+                <span class="text-3xl font-bold">EXCLUSIVE FITNESS CLUB</span>
+                <p class="mt-2 block">Your health is one of your most valuable assets. We help you take care of it - whether you are recovering or making sure you stay healthy in the future, we do our best to achieve your best. </p>
+
+                <div class="grid sm:grid-cols-2 gap-4 mt-4">
+                    <div class="">
+                        <img src="./images/p7.jpg">
+                    </div>
+                    <div class="flex gap-4 flex-col justify-center items-center px-8">
+                        <span class="text-3xl font-bold">PERSONAL FITNESS</span>
+                        <p>A personal trainer helps you to reach the next step on your journey. We help you to set your own goal, and then we achieve it together. Whatever it takes.</p>
+                    </div>
+                </div>
+
+                <!-- ... -->
+                <div class="grid sm:grid-cols-2 gap-4 mt-8">
+                    <div class="flex gap-4 flex-col justify-center items-center px-8">
+                        <span class="text-3xl font-bold">PRE- & POSTNATAL EXERCISE</span>
+                        <p>Exercise is good for everyone, especially if you are a mom – even a pregnant one. Regular activity can be beneficial for you and your baby during pregnancy. Exercise will help you prepare for the "marathon" of labor and delivery, which will be much easier if you are fit - instead of working out to tighten up, you work out to loosen up, relieve stress and prepare for childbirth</p>
+                    </div>
+                    <div class="">
+                        <img src="./images/Articles/img2.jpg">
+                    </div>
+                </div>
+
+                <!-- ... -->
+                <div class="grid sm:grid-cols-2 gap-4 mt-8">
+                    <div class="">
+                        <img src="./images/Articles/img1.jpg">
+                    </div>
+                    <div class="flex gap-4 flex-col justify-center items-center px-8">
+                        <span class="text-3xl font-bold">MYOFASCIAL RELEASE</span>
+                        <p>As part of our physiotherapy services, myofascial release (MFR) therapy focuses on releasing muscular tightness by applying gentle pressure to certain trigger points in your body. This can help you with stiffness in your muscles, pain, and restricted motion or flexibility.</p>
+                    </div>
+                </div>
+
+                <!-- get in touch -->
+                <div class="mt-8 py-10">
+                    <span class="text-[21px] sm:text-[26px] block font-bold">GET IN TOUCH</span>
+                    <div class="grid md:grid-cols-3 gap-4 mt-6">
+                        <input class="w-full border border-gray-300 focus:outline-none focus:ring-primary-300 placeholder-gray-800 px-3 py-2" type='text' placeholder='Name *' required />
+
+                        <input class="w-full border border-gray-300 focus:outline-none focus:ring-primary-300 placeholder-gray-800 px-3 py-2" type='text' placeholder='Email *' required />
+
+                        <input class="w-full border border-gray-300 focus:outline-none focus:ring-primary-300 placeholder-gray-800 px-3 py-2" type='text' placeholder='Phone' required />
+                    </div>
+
+                    <div class="mt-6">
+                        <textarea class="block w-full h-36 border border-gray-300 focus:outline-none focus:ring-primary-300 p-3 placeholder-gray-800"placeholder="Message..."></textarea>
+                    </div>
+
+                    <div class=" mt-6">
+                        <button class="group relative h-10 w-36 overflow-hidden rounded-lg bg-white text-lg shadow border border-gray-400">
+                            <div class="absolute inset-0 w-0 bg-gray-600 transition-all duration-[350ms] ease-out group-hover:w-full"></div>
+                            <span class="relative text-gray-600 group-hover:text-white text-sm font-bold tracking-wider">SUBMIT</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7546.914217332137!2d104.92461268727092!3d11.5492918151051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109510c2c5a4613%3A0x37296e0049859d64!2sLLFitness%20Exclusive%20Personal%20Training!5e0!3m2!1sen!2skh!4v1702697753973!5m2!1sen!2skh"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+    
+    <!-- footer -->
+    <section>
+        <div class="py-5 bg-gray-950 text-gray-400">
+            <div class="text-sm md:text-base px-5 flex flex-col md:flex-row gap-3 md:gap-10 justify-center tracking-wider">
+                <!-- mail -->
+                <div class="flex gap-3 items-center">
+                    <img src="./images/mail.png" class="w-6">
+                    <a href="#">info@llfitness-kh.com</a>
+                </div>
+                <!-- phone call -->
+                <div class="flex gap-3 items-center">
+                    <img src="./images/phone-call.png" class="w-7">
+                    <a href="#">+855 81 266 520</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="./images/google-maps.png" class="w-6">
+                    <a href="#">#164, St. 41Z, Phnom Penh</a>
+                </div>
+            </div>
+            <div class="mt-5">
+                <span class="block text-center tracking-wide">Copyright © 2023 LLFitness</span>
+            </div>
+        </div>
+    </section>
+
+    <script>AOS.init();</script>
+    <script src="./script.js"></script>
+</body>
+</html>

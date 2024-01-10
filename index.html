@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/logo.webp" type="image/icon">
+    <title>llfitness</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <div class="navigation fixed top-0 z-50 w-full">
+            <div class="flex justify-between items-center py-3 px-8 bg-black text-gray-50">
+                <div class="">
+                    <a href="index.html" class=""><img src="./images/dark-logo.jpg" class="w-24"></a>
+                </div>
+                <div class="nav-menu">
+                    <div class="nav-item flex flex-col gap-4 md:flex-row md:gap-5 tracking-wide">
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="service.html">SERVICE</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="team.html">TEAM</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="#">ARTICLES</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="#">PRICE</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="contact.html">CONTACT</a> </div>
+                        <div class="link link-underline"><a class="hover:text-[#f5f0f0] duration-500" href="location.html">LOCATION</a> </div>
+                    </div>
+                </div>
+                <button class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <!-- icon -->
+            <div class="">
+                <div class="flex justify-between items-center py-4 px-8 bg-gray-700 text-gray-50">
+                    <div class="hover:text-gray-400 duration-300">
+                        <i class="bi bi-house"></i>
+                        <a href="index.html" class="text-sm">HOME</a>
+                    </div>
+                    <div class="flex gap-3">
+                        <a href="#">
+                            <i class="bi bi-facebook hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-twitter hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-linkedin hover:text-gray-400 duration-300"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-youtube hover:text-gray-400 duration-300"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------- slideshow  ---------->
+    <section class="section-main">
+        <main class="cd__main">
+            <div class="contain">
+               <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+
+               <img src="./images/s1.jpg" alt="">
+               <img src="./images/s2.jpg" alt="">
+               <img src="./images/s3.jpg" alt="">
+               <img src="./images/s4.jpg" alt="">
+               <img src="./images/s5.jpg" alt="">
+               
+               <div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
+   
+               <div class="dots">
+                  <div class="dot">
+                     <i class="far fa-dot-circle"></i>
+                  </div>
+                  <div class="dot">
+                     <i class="far fa-circle"></i>
+                  </div>
+                  <div class="dot">
+                     <i class="far fa-circle"></i>
+                  </div>
+                  <div class="dot">
+                     <i class="far fa-circle"></i>
+                  </div>
+                  <div class="dot">
+                     <i class="far fa-circle"></i>
+                  </div>
+               </div>
+            </div>
+        </main>
+    </section>
+
+
+    <!-- main section -->
+    <section class="main z-50">
+        <div class="">
+            <!-- about llfitness -->
+            <div class="py-20 md:py-32 flex flex-col justify-center items-center">
+                <div class="md:w-7/12 xl:w-5/12 p-4 text-center">
+                    <span class="text-3xl sm:text-4xl text-center font-bold">AT LLFITNESS, WE ARE ALL ABOUT HEALTH.</span>
+                    <p class="mt-4 text-lg">We provide you with a wide range of services, and while our methods are founded on the latest findings and developments in the industry, we always focus on one thing: The client. Helping you meet your individual needs and achieve your personal goals is at the heart of our organisation, and what drives each one of us.</p>
+                </div>
+            </div>
+
+            <!-- about trainer -->
+            <div class="">
+                <div class="relative"data-aos="fade-up" data-aos-duration="2000">
+                    <img src="./images/trainer3.jpg" class="hidden sm:block bg-center bg-cover bg-no-repeat w-full">
+                    <img src="./images/trainer2.jpg" class="sm:hidden bg-center bg-cover bg-no-repeat w-full">
+                    <div class="absolute w-6/12 md:w-5/12 lg:w-4/12 top-4 xl:top-[10%] 2xl:top-[18%] left-1 md:left-12 lg:left-20 xl:left-[10%] text-gray-50">
+                        <span class="text-lg md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold text-center block">Owner/CEO
+                            Lorenzo Lanzafame</span>
+                        <p class="mt-2 xl:mt-4 text-center text-[10px] md:text-[12px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px]">My passion for fitness is something I live every day, whether as a personal trainer for my clients, as a coach for MMA fighters, or by training myself. I believe in inspiring people to make health a part of their lifestyle and I work hard to help my clients achieve their goals. This is my way of doing my part, and I hope it makes a difference to all the people we work with.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- about founder -->
+            <div class="mt-10">
+                <div class="flex flex-col flex-col-reverse md:flex-row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="md:w-6/12"><img src="./images/p18.jpg"></div>
+                    <div class="md:w-6/12 2xl:p-16 px-3 xl:px-6 lg:leading-6 text-sm 2xl:text-lg">
+                        <span class="block text-center mt-5 text-lg sm:text-xl xl:text-2xl 2xl:text-3xl font-bold">I founded LLFitness because I believe that exercise helps people become happier, healthier, and more confident - the best version of themselves.</span>
+                        <p class="block mt-2 2xl:mt-6 text-center text-justify">Since then, LLFitness has grown to be a well-established company in Cambodia, and the first professional high-quality provider of personal training. Services now go far beyond personal training, and the team expanded to include other certified specialists such as our dedicated physiotherapist.</p>
+
+                        <p class="block mt-2 2xl:mt-3 text-center text-justify">Offering a training experience that has not existed in Cambodia before, LLFitness created a space where clients are motivated and feel at home, with professional, passionate trainers. Working towards the client's goals is and always has been at the core our mentality, and the personal goals of our clients are and will always be the focus of the entire team.</p>
+
+                        <p class="block mt-2 2xl:mt-3 text-center text-justify">We are proud to offer a comprehensive and results-driven service that supports our clients in achieving the results they wish for. We do more than delivering results - we create an environment that gives you the opportunity to grow and achieve the goals you set for yourself, to become better every day.</p>
+
+                        <span class="block py-2 xl:mt-3 2xl:mt-6 sm:text-lg text-gray-800 font-semibold">And that is why we love what we do. </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ARTICLES -->
+            <div class="mt-10">
+                <div class="py-4">
+                    <span class="block text-center text-4xl font-bold">ARTICLES</span>
+                    <div class="grid gap-1 md:grid-cols-2 xl:grid-cols-4 mt-10">
+                        <div class="px-3">
+                            <div class="w-full overflow-hidden">
+                                <img src="./images/p12.jpg" class="bg-center bg-cover bg-no-repeat w-full">
+                            </div>
+                            <div class="mt-4 px-4 py-2">
+                                <span class="block text-lg font-semibold">ONE-ON-ONE</span>
+                                <p class="block text-sm mt-2">We recognize that everyone has individual needs, dreams, and goals. That is why every personal training program is tailored specifically to you, and the goals that you want to achieve.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- 2 -->
+                        <div class="px-3">
+                            <div class="w-full overflow-hidden">
+                                <img src="./images/p2.jpg" class="bg-center bg-cover bg-no-repeat w-full">
+                            </div>
+                            <div class="mt-4 px-4 py-2">
+                                <span class="block text-lg font-semibold">ATHLETIC DEVELOPMENT & SPORT PERFORMANCE</span>
+                                <p class="block text-sm mt-2">Our performance training is a specific, results-driven training program for athletes or beginners - there are no limits to your age, level or goals.</p>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="px-3">
+                            <div class="w-full overflow-hidden">
+                                <img src="./images/p18.jpg" class="bg-center bg-cover bg-no-repeat w-full">
+                            </div>
+                            <div class="mt-4 px-4 py-2">
+                                <span class="block text-lg font-semibold">PRIVATE GROUP TRAINING</span>
+                                <p class="block text-sm mt-2">Private group training is a great way for you to work out in a motivating, dynamic, and fun environment while enjoying  the focus on safety and technique that you would receive in a private training session.</p>
+                            </div>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="px-3">
+                            <div class="w-full overflow-hidden">
+                                <img src="./images/p13.jpg" class="bg-center bg-cover bg-no-repeat w-full">
+                            </div>
+                            <div class="mt-4 px-4 py-2">
+                                <span class="block text-lg font-semibold">MMA TRAINING, BOXING & CONDITIONING</span>
+                                <p class="block text-sm mt-2">Misxed martial arts, or MMA training and conditioning is essential for professional fighters, but also a great workout for beginners and anyone who is interested.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- footer -->
+    <section>
+        <div class="py-5 bg-gray-950 text-gray-400">
+            <div class="text-sm md:text-base px-5 flex flex-col md:flex-row gap-3 md:gap-10 justify-center tracking-wider">
+                <!-- mail -->
+                <div class="flex gap-3 items-center">
+                    <img src="./images/mail.png" class="w-6">
+                    <a href="#">info@llfitness-kh.com</a>
+                </div>
+                <!-- phone call -->
+                <div class="flex gap-3 items-center">
+                    <img src="./images/phone-call.png" class="w-7">
+                    <a href="#">+855 81 266 520</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="./images/google-maps.png" class="w-6">
+                    <a href="#">#164, St. 41Z, Phnom Penh</a>
+                </div>
+            </div>
+            <div class="mt-5">
+                <span class="block text-center tracking-wide">Copyright © 2023 LLFitness</span>
+            </div>
+        </div>
+    </section>
+
+    <script>AOS.init();</script>
+    <script src="./script.js"></script>
+</body>
+</html>

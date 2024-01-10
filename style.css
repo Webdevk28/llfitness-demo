@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Maven+Pro:wght@500&family=Outfit&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
+
+* {
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Maven Pro', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+}
+
+  /* menu underline hover */
+  .link {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s ease-in-out;
+}
+
+.link-underline {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#f5f0f0, #f5f0f0);
+}
+
+.link:hover {
+    background-size: 100% 2px;
+    background-position: 0 100%;
+}
+
+/*====== end menu underline hover====== */
+
+/* ======== humberger ======== */
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.nav-links {
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        z-index: 15;
+        position: relative;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        width: 26px;
+        border-radius: 18px;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(-8px) rotate(45deg) translateX(15px);
+        width: 18px;
+        border-radius: 18px;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(8px) rotate(-45deg) translateX(15px);
+        width: 18px;
+        border-radius: 18px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        gap: 10px;
+        padding: 100px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: #374151 !important;
+        width: 100%;
+        min-height: 100vh;
+        transition: 0.6s ease-in-out;
+        z-index: 10;
+        font-size: 20px;
+    }
+    .active {
+        right: 0% !important;
+    }
+}
+/* ======== end humberger ======= */
+
+/* ========= slideshow=========== */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.section-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 160px;
+}
+
+/* ===================== */
+.cd__main {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ===================== */
+
+.contain {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #355C7D;
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+  overflow: hidden;
+}
+.contain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: fade 3.5s ease forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.contain .arrow {
+  z-index: 10;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  color: rgb(8, 8, 8);
+  opacity: 0.5;
+  transition: opacity 1s;
+}
+.contain .arrow:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.contain .arrow-left {
+  left: 2%;
+}
+.contain .arrow-right {
+  right: 2%;
+}
+.contain .dots {
+  position: absolute;
+  margin: auto;
+  top: auto;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  width: 12rem;
+  height: auto;
+  z-index: 5;
+}
+.contain .dots .dot {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  color: cornsilk;
+}
+
+
+
+/* ======== end slideshow ======== */
+
+iframe {
+  width: 100%;
+  height: 720px;
+}
